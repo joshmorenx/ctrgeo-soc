@@ -23,7 +23,7 @@ services:
     ports:
       - '3306:3306'
   adminer:
-    image: adminer
+    image: adminer:latest
     container_name: adminer
     depends_on:
       - db
