@@ -25,11 +25,11 @@ Running *Cron Jobs* can be easily executed by [cron -f], but if this isn't worki
 The way to run Cron Jobs properly it's just typing and executing the following steps:
 
 - check your containers running and their IDs, the good one should be the container named *yourfoldername_api* -
-- then at the terminal *docker exec -it <container_id> bin/bash* -
+- then at the terminal **docker exec -it <container_id> bin/bash** -
 
-At the container terminal type *./raaan.sh* this script will be executed each 30s...
+At the container terminal type **./raaan.sh** this script will be executed each 30s...
 
-**To not stop the *Cron Job* JUST CLOSE THE TERMINAL do NOT use *exit*, do NOT use *CTRL+C* because this stops the *Cron Job* and this last is that we want to avoid**
+**To not stop the *Cron Job* JUST CLOSE THE TERMINAL do NOT use *exit*, do NOT use *CTRL+C* because this stops the *Cron Job* and this last thing is that we want to avoid**
 
 # How do i know my *Cron Job* is running?
 
@@ -48,7 +48,7 @@ While you stay at the container you will see this messages repeating for the ete
 
 - change the main.php at the folder where the *docker-composer.yaml* is -
 - check your containers running and their IDs, the good one should be the container named *yourfoldername_api* -
-- then at the terminal *docker exec -it <container_id> bin/bash* -
+- then at the terminal **docker exec -it <container_id> bin/bash** -
 
 ***warning** ./mooove.sh modifies the content of the main.php it could cause **yii framework** crash the so you can just **skip** this step*
 
