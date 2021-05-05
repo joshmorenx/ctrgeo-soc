@@ -8,6 +8,12 @@ COPY mooove.sh /mooove.sh
 #copies the cron script to the container
 COPY raaan.sh /raaan.sh
 
+#gives exec permission to mooove.sh
+RUN chmod -R 777 mooove.sh
+
+#gives exec permission to raaan.sh
+RUN chmod -R 777 raaan.sh
+
 #copies the compressed theme to the container
 COPY ctgeo.zip /ctgeo.zip
 
