@@ -25,9 +25,9 @@
                 </div> -->
                 
                 <div class="topbar-brand hidden-xs" style="position:absolute; padding-top:5px;">
-                    <a href="https://www.conacyt.gob.mx/"><img src="https://pixeldrain.com/api/file/QKkNydN4" width="85" height="40"></a>
-                    <a href="https://www.centrogeo.org.mx/"><img src="https://pixeldrain.com/api/file/KaiPbqPh" width="40" height="40"></a>
-                    <a href="http://mid.geoint.mx/"><img src="https://pixeldrain.com/api/file/cQyBsQPt" width="40" height="40"></a>
+                    <a href="https://www.conacyt.gob.mx/"><img src="http://geoint.mx/images/logos/geoint2_conacyt.png" width="50" height="50"></a>
+                    <a href="https://www.centrogeo.org.mx/"><img src="http://geoint.mx/images/logos/geoint2_centrogeo.png" width="50" height="50"></a>
+                    <a href="http://mid.geoint.mx/"><img src="http://geoint.mx/images/logos/geoint2_geoint.png" width="50" height="50"></a>
                 </div>
 
                 <div class="topbar-actions pull-right">
