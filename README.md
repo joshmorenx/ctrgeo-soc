@@ -52,6 +52,6 @@ While you stay at the container you will see this messages repeating for the ete
 
 ***warning** ./mooove.sh modifies the content of the main.php it could cause **yii framework** crash the so you can just **skip** this step*
 
-Then at the containte run *moooove.sh* typing *./* at the beginning, so it will be just like **./mooove.sh**.
+Then at the container run *moooove.sh* typing *./* at the beginning, so it will be just like **./mooove.sh**.
 
 i **only** recommend to modify manually the *main.php* **only after the whole HumHub configuration is completed, it's all at your own risk doing it, this could cause you restarting all the installation process from the beginning**
